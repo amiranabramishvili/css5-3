@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.MMaiN {
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.Column {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    background: #E7EEFF;
+    padding: 12px 28px 708px 28px;
+    flex-shrink: 0;
+}
+
+.Column :first-child {
+    border-bottom: 1px solid #002B81;
+}
+
+.RowDiv {
+    display: flex;
+    width: 1415px;
+    padding: 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+    background: #E7EEFF;
+}
+
+.searchdiv {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.searchdiv input {
+    border: none;
+    width: 290px;
+    color: #000;
+    line-height: 28px;
+    background: #E7EEFF;
+
+}
+
+.searchdiv p {
+    color: #5E6577;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+.MenuDiv {
+    width: 1154px;
+    margin: 0 auto;
+    margin-top: 40px;
+
+
+}
+
+.CalendarDiv {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+
+}
+
+.ButtonsDiv {
+    display: flex;
+    border-radius: 16px;
+    background: #E7EEFF;
+    padding: 8px 24px 8px 12px;
+    gap: 12px;
+    align-items: center;
+}
+
+.ButtonsDiv span {
+    color: #323232;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.SixDiv {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 42px;
+    margin-top: 40px;
+}
+
+.Homesss {
+    overflow: hidden;
+    max-width: 352px;
+    background: #E7EEFF;
+    border-radius: 24px 24px 0px 0px;
+}
+
+.Homesss p {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.Homesss span {
+    color: #606060;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
